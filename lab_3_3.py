@@ -3,7 +3,7 @@ from const import falling
 x0 = 0
 y0 = 0
 v0 = 0
-t=np.arange(0,0.5,0.01)
+t=np.arange(0,5,0.01)
 n=len(t)
 txy=np.ndarray(shape=(n,3))
 for i in range(0,n,1):
