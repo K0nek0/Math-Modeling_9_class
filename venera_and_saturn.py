@@ -50,10 +50,10 @@ for i in range(0, len(t), 1):
     sun, = plt.plot([0], [0], 'yo', ms = 15)
     
     venera, = plt.plot(sol[:i, 0], sol[:i, 2], 'ro')
-    venera_line, = plt.plot(sol[:i, 0], sol[:i, 2], 'r-')
+    venera_line, = plt.plot(sol[i, 0], sol[i, 2], 'r-')
     
     saturn, = plt.plot(sol[:i, 4], sol[:i, 6], 'go')
-    saturn_line, = plt.plot(sol[:i, 4], sol[:i, 6], 'g-')
+    saturn_line, = plt.plot(sol[i, 4], sol[i, 6], 'g-')
     
     planets.append([sun, venera, venera_line, saturn, saturn_line])
     
