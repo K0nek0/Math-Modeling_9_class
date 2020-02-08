@@ -118,4 +118,4 @@ for i in range(len(t)):
     
 ani = ArtistAnimation(fig, bodies, interval=50)
 plt.axis('equal')
-ani.save('3.gif')
+ani.save('3_new.gif')
